@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Base -->
+    <rect x="10" y="30" width="20" height="5" fill="#0066cc"/>
+    
+    <!-- Main structure -->
+    <path d="M20 5L30 30H10L20 5Z" fill="#0066cc"/>
+    
+    <!-- Windows -->
+    <rect x="17" y="15" width="2" height="4" fill="white"/>
+    <rect x="21" y="15" width="2" height="4" fill="white"/>
+    
+    <!-- Door -->
+    <path d="M18 25H22V30H18V25Z" fill="white"/>
+    
+    <!-- Cross -->
+    <rect x="19" y="2" width="2" height="6" fill="#0066cc"/>
+    <rect x="17" y="4" width="6" height="2" fill="#0066cc"/>
+</svg> 

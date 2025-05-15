@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - The Hong Kong Catholic Cathedral of The Immaculate Conception</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="index-en.html" class="logo">
+                    <img src="../public/placeholder.svg" alt="Cathedral Logo" width="40" height="40">
+                    <div class="logo-text">
+                        <h1>The Hong Kong Catholic Cathedral</h1>
+                        <p>天主教聖母無原罪主教座堂</p>
+                    </div>
+                </a>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="index-en.html">Home</a></li>
+                        <li class="dropdown">
+                            <a href="about-en.html">About Us</a>
+                           
+                        </li>
+                        <li><a href="events-en.html">Events</a></li>
+                        <li><a href="worship-en.html">Worship</a></li>
+                        <li><a href="media-en.html">Media</a></li>
+                        <li><a href="contact-en.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header-actions">
+                    <a href="contact.html" class="language-switch">中文</a>
+                    <a href="donate-en.html" class="donate-button">Donate</a>
+                </div>
+                <button class="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header" >
+            <div class="container">
+                <h1>Contact Us</h1>
+            </div>
+        </section>
+
+        <section class="contact-content">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2>Contact Information</h2>
+                        <div class="info-card">
+                            <div class="info-item">
+                                <img src="icons/map-pin.svg" alt="Address">
+                                <div>
+                                    <h3>Address</h3>
+                                    <p>16 Caine Road, Mid-levels, Hong Kong</p>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <img src="icons/phone.svg" alt="Phone">
+                                <div>
+                                    <h3>Phone</h3>
+                                    <p><a href="tel:+85228430000">2843 0000</a></p>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <img src="icons/mail.svg" alt="Email">
+                                <div>
+                                    <h3>Email</h3>
+                                    <p><a href="mailto:contact@cathedral.org.hk">contact@cathedral.org.hk</a></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h2>Office Hours</h2>
+                        <div class="info-card">
+                            <ul class="office-hours">
+                                <li>
+                                    <span>Monday to Friday</span>
+                                    <span>9:00 AM - 5:00 PM</span>
+                                </li>
+                                <li>
+                                    <span>Saturday</span>
+                                    <span>9:00 AM - 1:00 PM</span>
+                                </li>
+                                <li>
+                                    <span>Sunday & Public Holidays</span>
+                                    <span>Closed</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="map-container">
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.9914762340187!2d114.1495!3d22.2799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjLCsDE2JzQ3LjYiTiAxMTTCsDA4JzU4LjIiRQ!5e0!3m2!1sen!2shk!4v1635825600000!5m2!1sen!2shk" 
+                                width="100%" 
+                                height="450" 
+                                style="border:0;" 
+                                allowfullscreen="" 
+                                loading="lazy">
+                            </iframe>
+                        </div>
+                    </div>
+
+                    <div class="contact-form">
+                        <h2>Send us a Message</h2>
+                        <form id="contactForm" action="/submit-form" method="POST">
+                            <div class="form-group">
+                                <label for="name">Name *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject *</label>
+                                <input type="text" id="subject" name="subject" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" rows="6" required></textarea>
+                            </div>
+                            <button type="submit" class="submit-button">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <address>
+                        <p><img src="icons/map-pin.svg" alt="Address">16 Caine Road, Mid-levels, Hong Kong</p>
+                        <p><img src="icons/mail.svg" alt="Email"><a href="mailto:contact@cathedral.org.hk">contact@cathedral.org.hk</a></p>
+                        <p><img src="icons/phone.svg" alt="Phone"><a href="tel:+85228430000">2843 0000</a></p>
+                    </address>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#" target="_blank" rel="noopener noreferrer"><img src="icons/facebook.svg" alt="Facebook"></a>
+                        <a href="#" target="_blank" rel="noopener noreferrer"><img src="icons/instagram.svg" alt="Instagram"></a>
+                        <a href="#" target="_blank" rel="noopener noreferrer"><img src="icons/youtube.svg" alt="YouTube"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 The Hong Kong Catholic Cathedral of The Immaculate Conception. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 
